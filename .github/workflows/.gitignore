@@ -1,4 +1,5 @@
 #Powershell Scripts
 *.ps1
 #Python Scripts
+update.py
 *.py
