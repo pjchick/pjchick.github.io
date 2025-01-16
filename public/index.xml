@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chickfamily.net</title>
     <link>https://chickfamily.net/</link>
     <description>Recent content on Chickfamily.net</description>
-    <generator>Hugo -- 0.140.2</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://chickfamily.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://chickfamily.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Y.A.R.P! - Yet Another Relay comPuter!</title>
       <link>https://chickfamily.net/posts/y.a.r.p---yet-another-relay-computer/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      
       <guid>https://chickfamily.net/posts/y.a.r.p---yet-another-relay-computer/</guid>
       <description>&lt;h1 id=&#34;goals&#34;&gt;Goals&lt;/h1&gt;
 &lt;p&gt;I want to try and test the limits of what a relay computer is ultimately capable of. Using the amazing Harry Porter and Paul Law designs as a starting point I want to see where I can take it.&lt;/p&gt;
@@ -37,6 +37,48 @@
 &lt;li&gt;LED&amp;rsquo;s are allowed for monitoring and purposes on the card&amp;rsquo;s - the more blinkin&amp;rsquo; lights the better!&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;It&amp;rsquo;s not to say that my machine will be silicon free! - far from&amp;hellip;&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;goals&#34;&gt;Goals&lt;/h1&gt;
+&lt;p&gt;I want to try and test the limits of what a relay computer is ultimately capable of. Using the amazing Harry Porter and Paul Law designs as a starting point I want to see where I can take it.&lt;/p&gt;
+&lt;h2 id=&#34;these-goals-include-&#34;&gt;These goals include:-&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Support ALL logic gate functions (AND, OR, NAND, NOR, XOR, XNOR, NOT).&lt;/li&gt;
+&lt;li&gt;Add Subtract, increment and decrement in hardware.&lt;/li&gt;
+&lt;li&gt;A stack with PUSH, POP and PEEK (Circular buffer).&lt;/li&gt;
+&lt;li&gt;Basic hardware interrupts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;side-projects-so-far-include&#34;&gt;Side projects (so far) include:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Building some form of paper tape reader / writer (for 12-bit data!)&lt;/li&gt;
+&lt;li&gt;A &amp;lsquo;ROM cartridge&amp;rsquo; / boot loader.&lt;/li&gt;
+&lt;li&gt;Custom case to make it &amp;lsquo;portable&amp;rsquo; (but I&amp;rsquo;ll settle for luggable!). I want to be able to take this to maker fair&amp;rsquo;s and let people interact with it as much as possible.&lt;/li&gt;
+&lt;li&gt;A true Random Number Generator. I&amp;rsquo;m imagining a marble drop machine with 12 channels at the bottom, when you ask for a random number it reads the colour of the balls (black or white) before re circulating them back up to be dropped again. Loud, Madness but fun!&lt;/li&gt;
+&lt;li&gt;Human Clock. The main computer clock will similar to other designs, however I want to build a large box with a hand wheel, where someone can literally &amp;lsquo;crank&amp;rsquo; the clock pulses into the machine.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;constraints&#34;&gt;Constraints&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Everything to do with the core computing functions of the machine has to be done by relay&amp;rsquo;s (except Memory - see below).&lt;/li&gt;
+&lt;li&gt;Diodes can be used to stop back-feeding signals but at a minimum.&lt;/li&gt;
+&lt;li&gt;LED&amp;rsquo;s are allowed for monitoring and purposes on the card&amp;rsquo;s - the more blinkin&amp;rsquo; lights the better!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It&amp;rsquo;s not to say that my machine will be silicon free! - far from&amp;hellip;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A RAM chip will be used for main memory. However I want to integrate some other discreet memory devices along side (Relay RAM or Capacitor RAM) just to prove it &lt;em&gt;could&lt;/em&gt; work if I had enough time or budget to build a 4096 * 12 bit memory storage by hand! This I feel is an honourable compromise.
+If I&amp;rsquo;m going to &lt;del&gt;cheat&lt;/del&gt; compromise on the RAM - I might as well make the most of it! So my plan will be to use a microcontroller (with wifi) for the RAM. In normal operation the microcontroller will function as basic RAM - implemented as many others have done. However it will also give me the ability to write a debugging interface. The goal will be to view, edit, load and save the memory from a terminal browser or telnet session etc.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A Diagnostic card is also planned that will be able to view the busses and manipulate the key control lines. Again useful for diagnostics as it&amp;rsquo;s being built but would also server another purpose as the ultimate goal would be to put this computer &amp;lsquo;on the net&amp;rsquo; so people could write their own programs and run them remotely!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Finally no electronics project would be complete without a &amp;lsquo;555&amp;rsquo; timer! So their will be a second clock source built around one of these - just to annoy the purists!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;specification&#34;&gt;Specification&lt;/h1&gt;
+&lt;p&gt;The computer is 12-bits. 12-bit Address bus, 12-bit Data bus and 12-bit ALU.&lt;/p&gt;
+&lt;p&gt;Using a 12-bit data bus and 12-bit instruction register has given me much more flexibility with the instruction set. I settled on 12-bits as I thought is was the sweetspot (for me). I can play with large&amp;rsquo;ish numbers (4095 max), I can have a much larger instruction set, and I&amp;rsquo;d never need more that 4096 bytes of memory in reality - a 16 bit address range would be overkill. As for the number of relay&amp;rsquo;s used - it will take more relays - but I don&amp;rsquo;t think the amount will be as significant as I first thought as I am increasing the data-bus but reducing the address bus across the design.&lt;/p&gt;
+&lt;p&gt;The main ALU can add , subtract , increment and decrement. The shifting card can Shift or Rotate the B or C register. Using a 12-bit data bus and 12-bit instruction register has given me much more flexibility with the instruction set. I settled on 12-bits as I thought is was the sweetspot (for me). I can play with large&amp;rsquo;ish numbers (4095 max), I can have a much larger instruction set, and I&amp;rsquo;d never need more that 4096 bytes of memory in reality - a 16 bit address range would be overkill. As for the number of relay&amp;rsquo;s used - it will take more relays - but I don&amp;rsquo;t think the amount will be as significant as I first thought as I am increasing the data-bus but reducing the address bus. The majority of my inspiration and designs are based on the EXCELLENT relay computers built by Paul Law - &lt;a href=&#34;https://www.youtube.com/@paul80nd&#34;&gt;https://www.youtube.com/@paul80nd&lt;/a&gt;, DipDot - &lt;a href=&#34;http://www.youtube.com/@dipdoting&#34;&gt;http://www.youtube.com/@dipdoting&lt;/a&gt; and Harry Porter - &lt;a href=&#34;http://www.youtube.com/@hhp3&#34;&gt;http://www.youtube.com/@hhp3&lt;/a&gt; &amp;hellip;with just a little of my own lunacy thrown in!&lt;/p&gt;
+</content>
     </item>
+    
   </channel>
 </rss>
