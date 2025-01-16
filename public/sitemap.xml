@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://chickfamily.net/posts/</loc>
-    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://chickfamily.net/</loc>
     <lastmod>2025-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://chickfamily.net/posts/test-blog-post/</loc>
+    <loc>https://chickfamily.net/posts/y.a.r.p---yet-another-relay-computer/</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chickfamily.net/posts/</loc>
     <lastmod>2025-01-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chickfamily.net/categories/</loc>

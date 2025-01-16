@@ -2,7 +2,7 @@ baseurl = "/"
 languageCode = "en-us"
 # Add it only if you keep the theme in the `themes` directory.
 # Remove it if you use the theme as a remote Hugo Module.
-theme = "terminal"
+theme = "Papermod"
 paginate = 5
 
 [params]
@@ -70,7 +70,7 @@ paginate = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
+    title = "Chickfamily.net"
 
     [languages.en.params]
       subtitle = "A simple, retro theme for Hugo"
@@ -88,15 +88,17 @@ paginate = 5
       words = "words"
 
       [languages.en.params.logo]
-        logoText = "Terminal"
+        logoText = "Chickfamily.net"
         logoHomeLink = "/"
 
       [languages.en.menu]
         [[languages.en.menu.main]]
+          identifier = "relaycomputer"
+          name = "relaycomputer"
+          url = "/relaycomputer"
+
+        [[languages.en.menu.main]]
           identifier = "about"
           name = "About"
           url = "/about"
-        [[languages.en.menu.main]]
-          identifier = "showcase"
-          name = "Showcase"
-          url = "/showcase"
+

@@ -1,24 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Terminal</title>
+    <title>Posts on Chickfamily.net</title>
     <link>https://chickfamily.net/posts/</link>
-    <description>Recent content in Posts on Terminal</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Posts on Chickfamily.net</description>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://chickfamily.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://chickfamily.net/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test Blog Post</title>
-      <link>https://chickfamily.net/posts/test-blog-post/</link>
+      <title>Overview</title>
+      <link>https://chickfamily.net/posts/y.a.r.p---yet-another-relay-computer/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://chickfamily.net/posts/test-blog-post/</guid>
-      <description>&lt;p&gt;This is my first Blog Post&lt;/p&gt;
-&lt;p&gt;!&lt;img src=&#34;https://chickfamily.net/images/bamboo.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
-      <content>&lt;p&gt;This is my first Blog Post&lt;/p&gt;
-&lt;p&gt;!&lt;img src=&#34;https://chickfamily.net/images/bamboo.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
-</content>
+      <guid>https://chickfamily.net/posts/y.a.r.p---yet-another-relay-computer/</guid>
+      <description>&lt;h1 id=&#34;goals&#34;&gt;Goals&lt;/h1&gt;
+&lt;p&gt;I want to try and test the limits of what a relay computer is ultimately capable of. Using the amazing Harry Porter and Paul Law designs as a starting point I want to see where I can take it.&lt;/p&gt;
+&lt;h2 id=&#34;these-goals-include-&#34;&gt;These goals include:-&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Support ALL logic gate functions (AND, OR, NAND, NOR, XOR, XNOR, NOT).&lt;/li&gt;
+&lt;li&gt;Add Subtract, increment and decrement.&lt;/li&gt;
+&lt;li&gt;a Stack with PUSH, POP and PEEK (Circular buffer).&lt;/li&gt;
+&lt;li&gt;a basic hardware interrupt.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;side-projects-so-far-include&#34;&gt;Side projects (so far) include:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Building some form of paper tape reader / writer (for 12-bit data!)&lt;/li&gt;
+&lt;li&gt;A &amp;lsquo;ROM cartridge&amp;rsquo; / boot loader.&lt;/li&gt;
+&lt;li&gt;Custom case to make it &amp;lsquo;portable&amp;rsquo; (but I&amp;rsquo;ll settle for luggable!). I want to be able to take this to maker fair&amp;rsquo;s and let people interact with it as much as possible.&lt;/li&gt;
+&lt;li&gt;A true Random Number Generator. I&amp;rsquo;m imagining a marble drop machine with 12 channels at the bottom, when you ask for a random number it reads the colour of the balls (black or white) before re circulating them back up to be dropped again. Loud, Madness but fun!&lt;/li&gt;
+&lt;li&gt;Human Clock. The main computer clock will similar to other designs, however I want to build a large box with a hand wheel, where someone can literally &amp;lsquo;crank&amp;rsquo; the clock pulses into the machine.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;constraints&#34;&gt;Constraints&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Everything to do with the core computing functions of the machine has to be done by relay&amp;rsquo;s (except Memory - see below).&lt;/li&gt;
+&lt;li&gt;Diodes can be used to stop back-feeding signals but at a minimum.&lt;/li&gt;
+&lt;li&gt;LED&amp;rsquo;s are allowed for monitoring and purposes on the card&amp;rsquo;s - the more blinkin&amp;rsquo; lights the better!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It&amp;rsquo;s not to say that my machine will be silicon free! - far from&amp;hellip;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
