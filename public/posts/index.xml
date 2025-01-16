@@ -9,7 +9,7 @@
     <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://chickfamily.net/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Overview</title>
+      <title>Y.A.R.P! - Yet Another Relay comPuter!</title>
       <link>https://chickfamily.net/posts/y.a.r.p---yet-another-relay-computer/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://chickfamily.net/posts/y.a.r.p---yet-another-relay-computer/</guid>
@@ -18,9 +18,9 @@
 &lt;h2 id=&#34;these-goals-include-&#34;&gt;These goals include:-&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Support ALL logic gate functions (AND, OR, NAND, NOR, XOR, XNOR, NOT).&lt;/li&gt;
-&lt;li&gt;Add Subtract, increment and decrement.&lt;/li&gt;
-&lt;li&gt;a Stack with PUSH, POP and PEEK (Circular buffer).&lt;/li&gt;
-&lt;li&gt;a basic hardware interrupt.&lt;/li&gt;
+&lt;li&gt;Add Subtract, increment and decrement in hardware.&lt;/li&gt;
+&lt;li&gt;A stack with PUSH, POP and PEEK (Circular buffer).&lt;/li&gt;
+&lt;li&gt;Basic hardware interrupts.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;side-projects-so-far-include&#34;&gt;Side projects (so far) include:&lt;/h2&gt;
 &lt;ul&gt;

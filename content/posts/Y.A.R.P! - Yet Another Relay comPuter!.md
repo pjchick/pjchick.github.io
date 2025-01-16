@@ -1,5 +1,5 @@
 ---
-title: Overview
+title: Y.A.R.P! - Yet Another Relay comPuter!
 date: 2025-01-15
 draft: false
 ---
@@ -11,9 +11,9 @@ I want to try and test the limits of what a relay computer is ultimately capable
 
 ## These goals include:-
 - Support ALL logic gate functions (AND, OR, NAND, NOR, XOR, XNOR, NOT).
-- Add Subtract, increment and decrement.
-- a Stack with PUSH, POP and PEEK (Circular buffer).
-- a basic hardware interrupt.
+- Add Subtract, increment and decrement in hardware.
+- A stack with PUSH, POP and PEEK (Circular buffer).
+-  Basic hardware interrupts.
 
 ## Side projects (so far) include:
 - Building some form of paper tape reader / writer (for 12-bit data!)
