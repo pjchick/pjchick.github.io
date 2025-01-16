@@ -2,7 +2,7 @@ baseurl = "/"
 languageCode = "en-us"
 # Add it only if you keep the theme in the `themes` directory.
 # Remove it if you use the theme as a remote Hugo Module.
-theme = "Terminal"
+theme = "terminal"
 paginate = 5
 
 [params]
@@ -17,7 +17,7 @@ paginate = 5
   showLanguageSelector = false
 
   # set theme to full screen width
-  fullWidthTheme = false
+  fullWidthTheme = true
 
   # center theme with default width
   centerTheme = false
