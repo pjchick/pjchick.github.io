@@ -72,15 +72,16 @@ print(f"Exit code: {subprocess_result.returncode}")
 print(f"Standard output: {subprocess_result.stdout}")
 print(f"Standard error: {subprocess_result.stderr}")
 
-
 now = datetime.now()
 date_time_string = now.strftime("%Y-%m-%d %H:%M:%S")
 commit_message = "Blog update: " + date_time_string
-
 
 subprocess_result = subprocess.run(['git', 'commit', '-m', commit_message],check = True, capture_output=True, text=True)
 print(f"Exit code: {subprocess_result.returncode}")
 print(f"Standard output: {subprocess_result.stdout}")
 print(f"Standard error: {subprocess_result.stderr}")
 
-#subprocess.run(['git', 'commit', '-m', commit_message], check=True)
+subprocess_result = subprocess.run(['git', 'push', '-u', 'origin', 'main'],check = True, capture_output=True, text=True)
+print(f"Exit code: {subprocess_result.returncode}")
+print(f"Standard output: {subprocess_result.stdout}")
+print(f"Standard error: {subprocess_result.stderr}")
