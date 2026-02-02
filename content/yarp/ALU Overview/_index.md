@@ -1,15 +1,27 @@
 ---
 title: "ALU Overview"
-date: 2025-02-02
+date: 2026-01-02
 draft: false
 description: "Overview of the ALU"
-tags: ["Overview", "ALU", "Cards"]
+tags: ["ALU", "ALU-Logic"]
 
 ---
 
 The ALU will eventually consist of a number of cards divided into three groups.
 
-## ALU-L
+## ALU-Arithmetic (ALU_A)
+This is the arithmetic card, It supports B + C, B - C, INCREMENT B and INCREMENT C.
+
+This is probably the biggest card so far, so it has been split between a main card and a daughter board. The Main card holds the data latches and control logic, while the daughter card holds the full adder's.
+
+I will be building a 'Zuse' adder. Developed by Konrad Zuse in the 1930's it's benefit is it is faster as it doesn't ripple across each adder clock.
+
+![Zuse Adder](./images/zuseadder.png)
+
+My current design will be to have the input stages on the main card and the actual adder itself on a daughter card. I'm fairly confident around the support logic, but if If the adder unit itself needs additional iterations I can simply swap that section out.
+
+
+## ALU-Logic (ALU_L)
 
 There are 7 main logic gates. AND, OR, NOT, NAND, NOR, XOR and XNOR. For my relay computer I wanted to implement all of these.
 
@@ -31,23 +43,7 @@ We only have to support 7 logical gates but I had enough capacity to add a NOT_B
 
 In the photograph you can see the underneath the daughter cards are the gating relays that transfer the logical result to the data bus when required.
 
-
-## ALU_A
-This is the arithmetic card, It supports B + C, B - C, INCREMENT B and INCREMENT C.
-
-This is probably the biggest card so far, so it has been split between a main card and a daughter board. The Main card holds the data latches and control logic, while the daughter card holds the full adder's.
-
-I wan't to experiment with two different types of adder:
-
-First a standard ripple adder.
-
-The second will be a 'Zuse' adder. Developed by Konrad Zuse in the 1930's it's benefit is it is faster as it doesn't ripple across each adder.
-
-![Zuse Adder](./images/zuseadder.png)
-
-My current design will be to have the input stages on the main card and the actual adder itself on a daughter card. I'm fairly confident around the support logic, but if If the adder unit itself needs additional iterations I can simply swap that section out.
-
-## ALU_S
+## ALU_Shift (ALU_S)
 This is the Shift register card. It supports shifting or rotating left or right from Register B or Register C as the source.
 
 ![Shift Register](./images/shiftregister.png)

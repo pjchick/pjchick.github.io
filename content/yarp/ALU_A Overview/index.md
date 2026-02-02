@@ -1,10 +1,9 @@
 ---
 title: "ALU_A Arithmetic Unit"
-date: 2025-02-05
+date: 2026-01-03
 draft: false
 description: "Overview of the ALU_A arithmetic Unit "
-tags: ["Overview", "ALU", "Cards"]
-
+tags: ["ALU", "ALU-Arithmetic"]
 ---
 
 The ALU_A Arithmetic card will without doubt be one of the busiest and most complex cards I'll have to build. The goal is to design a card that can support the following operations:

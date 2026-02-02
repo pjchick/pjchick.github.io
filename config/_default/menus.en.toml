@@ -11,9 +11,19 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-   name = "Posts"
-   pageRef = "posts"
+   name = "Home"
+   pageRef = "/"
+   weight = 1
+
+[[main]]
+   name = "Y.A.R.P."
+   pageRef = "yarp"
    weight = 10
+
+[[main]]
+   name = "Relay Simulator"
+   pageRef = "relaysim"
+   weight = 20
 
 #[[main]]
 #  name = "Parent"

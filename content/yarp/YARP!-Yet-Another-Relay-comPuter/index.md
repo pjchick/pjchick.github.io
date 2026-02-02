@@ -1,8 +1,7 @@
 ---
 title: "YARP Overview"
-date: 2025-02-02
-draft: false
-description: "a description"
+date: 2026-01-01
+description: "A description and high level overview of my 12-bit relay computer"
 tags: ["Overview"]
 
 ---
@@ -12,7 +11,7 @@ First if we take a look at the Relay computer designed by [Harry Porter](https:/
 
 ![Alt text](images/Porter%20Architecture.drawio.png "HP Design")
 
-It's an excellent, elegant design. But in studying it and the subsequent refinements made by [Paul Law](http://relaycomputer.co.uk) I started to wonder where else I could take it, and what I could add.
+It's an excellent, elegant design. But in studying it and the subsequent refinements made by [Paul Law](http://relaycomputer.co.uk) and DipDot (https://www.youtube.com/@dipdoting) I started to wonder where else I could take it, and what I could add.
 
 So let me introduce YARP - Yet Another Relay comPuter!
 

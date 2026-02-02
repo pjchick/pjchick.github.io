@@ -1,6 +1,6 @@
 ---
 title: "Why is it called YARP?"
-date: 2025-02-01
+date: 2026-01-02
 draft: false
 description: "Why is it called YARP?"
 tags: ["Overview"]
