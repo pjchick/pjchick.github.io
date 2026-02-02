@@ -1,13 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blowfish</title>
-    <link>//localhost:1313/</link>
-    <description>Recent content on Blowfish</description>
+    <title>chickfamily.net</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on chickfamily.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 </copyright>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ALU_A Arithmetic Unit</title>
+      <link>http://localhost:1313/posts/yarp/alu_a-overview/</link>
+      <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/yarp/alu_a-overview/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/yarp/alu_a-overview/featured.png" />
+    </item>
+    
+    <item>
+      <title>ALU Overview</title>
+      <link>http://localhost:1313/posts/yarp/alu-overview/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/yarp/alu-overview/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/yarp/alu-overview/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>YARP Overview</title>
+      <link>http://localhost:1313/posts/yarp/yarp-yet-another-relay-computer/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/yarp/yarp-yet-another-relay-computer/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/yarp/yarp-yet-another-relay-computer/featured.png" />
+    </item>
+    
+    <item>
+      <title>Why is it called YARP?</title>
+      <link>http://localhost:1313/posts/yarp/why-is-it-called-yarp/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/yarp/why-is-it-called-yarp/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/yarp/why-is-it-called-yarp/featured.png" />
+    </item>
     
   </channel>
 </rss>
