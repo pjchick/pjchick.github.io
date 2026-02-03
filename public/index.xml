@@ -11,42 +11,42 @@
     
     <item>
       <title>RelaySim Demo</title>
-      <link>http://localhost:1313/relaysim/demo/</link>
+      <link>http://localhost:1313/posts/relaysim/demo/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/relaysim/demo/</guid>
+      <guid>http://localhost:1313/posts/relaysim/demo/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/relaysim/demo/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/relaysim/demo/featured.png" />
     </item>
     
     <item>
       <title>ALU_A Arithmetic Unit</title>
-      <link>http://localhost:1313/yarp/alu_a-overview/</link>
+      <link>http://localhost:1313/posts/yarp/alu_a-overview/</link>
       <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/yarp/alu_a-overview/</guid>
+      <guid>http://localhost:1313/posts/yarp/alu_a-overview/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/yarp/alu_a-overview/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/yarp/alu_a-overview/featured.png" />
     </item>
     
     <item>
       <title>Why is it called YARP?</title>
-      <link>http://localhost:1313/yarp/why-is-it-called-yarp/</link>
+      <link>http://localhost:1313/posts/yarp/why-is-it-called-yarp/</link>
       <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/yarp/why-is-it-called-yarp/</guid>
+      <guid>http://localhost:1313/posts/yarp/why-is-it-called-yarp/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/yarp/why-is-it-called-yarp/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/yarp/why-is-it-called-yarp/featured.png" />
     </item>
     
     <item>
       <title>YARP Overview</title>
-      <link>http://localhost:1313/yarp/yarp-yet-another-relay-computer/</link>
+      <link>http://localhost:1313/posts/yarp/yarp-yet-another-relay-computer/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/yarp/yarp-yet-another-relay-computer/</guid>
+      <guid>http://localhost:1313/posts/yarp/yarp-yet-another-relay-computer/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/yarp/yarp-yet-another-relay-computer/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/yarp/yarp-yet-another-relay-computer/featured.png" />
     </item>
     
   </channel>

@@ -17,12 +17,12 @@
 
 [[main]]
    name = "Y.A.R.P."
-   pageRef = "yarp"
+   pageRef = "posts/yarp"
    weight = 10
 
 [[main]]
    name = "Relay Simulator"
-   pageRef = "relaysim"
+   pageRef = "posts/relaysim"
    weight = 20
 
 #[[main]]
