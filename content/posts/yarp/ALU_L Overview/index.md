@@ -6,6 +6,14 @@ description: "Overview of the ALU_L Logic Unit "
 tags: ["ALU", "ALU-Logic"]
 ---
 
+
+ALU_L Logic card demo.
+
+{{< youtube VFxC7XhtL1E >}} 
+
+https://youtu.be/VFxC7XhtL1E
+
+
 The ALU_L Logic cards are much simpler then the ALU_A card. I have chosen to split these onto two cards, Each card will support 4 logical operations giving me a total of 8 logical operations.
 
 These are:
