@@ -47,7 +47,7 @@ To Increment C we switch the Green Relays over to connect to the first input of 
 
 ### Subtraction
 
-Subtraction can be performed by adding the Two's compliment of one number to the second number and adding 1. For a more detailed explanation of two's compliment I'd suggest that you watch this video.
+Subtraction can be performed by adding the Two's compliment of one number to the second number and adding 1.
 
 To convert the first number into the adder we have to first make it a two's compliment of itself, basically inverting it. so with  the ADD/SUB line now 1 the XOR Gates will now act as an inverter. For reference here's the Truth table for an XOR gate:
 
