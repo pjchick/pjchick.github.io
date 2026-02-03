@@ -3,13 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/relaysim/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/relaysim/demo/</loc>
+    <loc>http://localhost:1313/posts/relaysim/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/relaysim/demo/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -21,31 +27,31 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/yarp/alu_a-overview/</loc>
+    <loc>http://localhost:1313/posts/yarp/alu_a-overview/</loc>
     <lastmod>2026-01-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/yarp/</loc>
+    <loc>http://localhost:1313/posts/yarp/</loc>
     <lastmod>2026-01-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/yarp/alu-overview/</loc>
+    <loc>http://localhost:1313/posts/yarp/alu-overview/</loc>
     <lastmod>2026-01-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/yarp/why-is-it-called-yarp/</loc>
+    <loc>http://localhost:1313/posts/yarp/why-is-it-called-yarp/</loc>
     <lastmod>2026-01-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/yarp/yarp-yet-another-relay-computer/</loc>
+    <loc>http://localhost:1313/posts/yarp/yarp-yet-another-relay-computer/</loc>
     <lastmod>2026-01-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
