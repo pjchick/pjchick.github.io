@@ -7,22 +7,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 </copyright>
-    <lastBuildDate>Tue, 03 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>RelaySim</title>
-      <link>http://localhost:1313/tags/relaysim/</link>
-      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/relaysim/</guid>
-      <description></description>
-      
-    </item>
+    <lastBuildDate>Tue, 10 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>ALU</title>
       <link>http://localhost:1313/tags/alu/</link>
-      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/alu/</guid>
       <description></description>
@@ -30,11 +20,21 @@
     </item>
     
     <item>
-      <title>ALU-Arithmetic</title>
-      <link>http://localhost:1313/tags/alu-arithmetic/</link>
-      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <title>ALU-Shift</title>
+      <link>http://localhost:1313/tags/alu-shift/</link>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/alu-arithmetic/</guid>
+      <guid>http://localhost:1313/tags/alu-shift/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>RelaySim</title>
+      <link>http://localhost:1313/tags/relaysim/</link>
+      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/relaysim/</guid>
       <description></description>
       
     </item>

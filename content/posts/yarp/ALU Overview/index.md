@@ -1,6 +1,6 @@
 ---
 title: "ALU Overview"
-date: 2026-01-02
+date: 2026-01-04
 draft: false
 description: "Overview of the ALU"
 tags: ["ALU", "ALU-Logic"]

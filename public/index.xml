@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 </copyright>
-    <lastBuildDate>Tue, 03 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ALU_S Shift Unit</title>
+      <link>http://localhost:1313/posts/yarp/alu_s-overview/</link>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/yarp/alu_s-overview/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/yarp/alu_s-overview/featured.png" />
+    </item>
+    
+    <item>
+      <title>ALU_L Logic Unit</title>
+      <link>http://localhost:1313/posts/yarp/alu_l-overview/</link>
+      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/yarp/alu_l-overview/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/yarp/alu_l-overview/featured.png" />
+    </item>
     
     <item>
       <title>Relay Sim code released on GitHub</title>
@@ -32,7 +52,7 @@
     <item>
       <title>ALU_A Arithmetic Unit</title>
       <link>http://localhost:1313/posts/yarp/alu_a-overview/</link>
-      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/yarp/alu_a-overview/</guid>
       <description></description>
@@ -40,13 +60,13 @@
     </item>
     
     <item>
-      <title>ALU_L Logic Unit</title>
-      <link>http://localhost:1313/posts/yarp/alu_l-overview/</link>
-      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <title>ALU Overview</title>
+      <link>http://localhost:1313/posts/yarp/alu-overview/</link>
+      <pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/yarp/alu_l-overview/</guid>
+      <guid>http://localhost:1313/posts/yarp/alu-overview/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/yarp/alu_l-overview/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/yarp/alu-overview/featured.jpg" />
     </item>
     
     <item>

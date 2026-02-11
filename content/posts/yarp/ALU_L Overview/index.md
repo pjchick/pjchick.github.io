@@ -1,6 +1,6 @@
 ---
 title: "ALU_L Logic Unit"
-date: 2026-01-03
+date: 2026-02-03
 draft: false
 description: "Overview of the ALU_L Logic Unit "
 tags: ["ALU", "ALU-Logic"]
